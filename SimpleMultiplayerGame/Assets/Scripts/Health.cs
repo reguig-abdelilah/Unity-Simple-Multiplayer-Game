@@ -71,9 +71,4 @@ public class Health : NetworkBehaviour {
             GetComponent<PlayerController>().cameraFollow.ResetCamera();
         }
     }
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(transform.position, 2);
-    }
 }
